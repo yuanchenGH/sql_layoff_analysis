@@ -1,53 +1,39 @@
-# sql_layoff_analysis
+# SQL Project: Data Cleaning and Exploration
 
-SQL Project: Data Cleaning and Exploration
+## Project Overview
 
-Project Overview
+This project focuses on utilizing SQL for data cleaning and exploratory data analysis (EDA). The goal is to transform raw datasets into clean, analyzable forms and extract meaningful insights. SQL queries are used to perform operations like handling missing values, correcting inconsistencies, and summarizing data.
 
-This project focuses on utilizing SQL for data cleaning and exploratory data analysis (EDA). The goal is to transform raw, unstructured datasets into clean, analyzable forms and extract meaningful insights. SQL queries are used to perform operations like handling missing values, correcting inconsistencies, and summarizing data.
+## Objectives
 
-Objectives
-
-Data Cleaning:
+### Data Cleaning:
 
 Handle missing, duplicate, or inconsistent values.
 
 Standardize data formats (e.g., dates, strings, numerical values).
 
-Ensure referential integrity between tables.
-
-Data Exploration:
+### Data Exploration:
 
 Perform descriptive analysis using aggregate functions.
 
 Identify trends, distributions, and outliers.
 
-Visualize data patterns using SQL-compatible tools.
+## Dataset
 
-Dataset
+### Description
 
-Description
+The dataset(s) used in this project consist of one table with international layoff statistics from 2020.3 to 2023.3, including columns of company name, location, industry, total laid off, percentage laid off, date, fund raising stage, country, funds raised in millions
 
-The dataset(s) used in this project consist of multiple tables from a fictional business context, including but not limited to:
+## Data Characteristics
 
-Customers: Information about customers such as names, locations, and demographics.
+**Rows**: 2361 (1995 after cleaning).
 
-Sales: Transactional data containing order details, revenue, and timestamps.
+**Columns**: 9.
 
-Products: Inventory data with product IDs, names, and categories.
+**Source**: https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv.
 
-Data Characteristics
+### Tools and Environment
 
-Rows: 2361 (1995 after cleaning).
+**Database Management System (DBMS)**: MySQL
 
-Columns: 9.
-
-Source: Simulated data to represent real-world business scenarios.
-
-Tools and Environment
-
-Database Management System (DBMS): MySQL / PostgreSQL / SQLite
-
-SQL Client: DBeaver, pgAdmin, or MySQL Workbench
-
-Extensions (Optional): Python or R for advanced visualization
+**SQL Client**: MySQL Workbench
